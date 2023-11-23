@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.red {
+  background-color: red;
+}
+.pink {
+  background-color: pink;
+}
+.icon {
+  color: red;
+}
+.deleteBtn {
+  background-color: red;
+  padding: 5px 10px;
+  margin: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.list {
+  width: 300px;
+  flex-direction: column;
+  margin: 10px;
+  & li {
+    background-color: green;
+    margin: 20px;
+    color: black;
+    font-size: 24px;
+  }
+}

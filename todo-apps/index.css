@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0px;
+    padding: 0px; */
+    list-style-type: none;
+    text-decoration: none;
+}
+.fa-trash{
+    color: red;
+    margin-left: 20px;
+    font-size: 22px;
+}
+ul{
+    background-color: wheat;
+    width: 300px;
+    padding: 10px;
+    color: black;
+}
